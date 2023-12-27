@@ -3,14 +3,14 @@ import { QuizContext } from "../context/quiz";
 
 import "./Welcome.css";
 
-import Quiz from "../img/quiz.svg";
+import Quiz from "../img/gamer2business_Prancheta 1 cópia 2.png";
 
 const Welcome = () => {
   const [quizState, dispatch] = useContext(QuizContext);
 
   return (
     <div id="welcome">
-      <h2>Seja bem-vindo</h2>
+      <h2>Quiz</h2>
       <p>Clique no botão abaixo para começar:</p>
       <button onClick={() => dispatch({ type: "CHANGE_STAGE" })}>
         Iniciar
