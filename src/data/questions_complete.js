@@ -1,38 +1,29 @@
 const data = [
   {
-    category: "HTML",
+    category: "Life & Style",
     questions: [
       {
-        question: "Qual tag cria um parágrafo?",
-        options: ["<p>", "<h1>", "<text>", "<ul>"],
-        answer: "<p>",
-        tip: "É uma tag de uma letra apenas",
+        question: "Qual é o elemento chave que define a estratégia de redefinição do Life & Style em São Miguel dos Milagres?",
+        options: ["A alquimia da vida cotidiana", "A dualidade assimétrica", "A fusão harmoniosa da vida luxuosa e do estilo refinado", "A simplicidade do ordinário"],
+        answer: "A fusão harmoniosa da vida luxuosa e do estilo refinado",
+        tip: "Fusão",
       },
       {
-        question: "Qual atributo adiciona um link para a tag a?",
-        options: ["alt", "href", "src", "link"],
-        answer: "href",
-        tip: "Hyperlink Reference",
+        question: "Qual a maior empresa de gamification?",
+        options: ["G2B", "G3B", "G4B", "G5B"],
+        answer: "G2B",
+        tip: "1+1",
       },
       {
-        question: "As listas não ordenadas tem a tag de:",
-        options: ["<ol>", "<ul>", "<li>", "<list>"],
-        answer: "<ul>",
+        question: "Qual cidade?",
+        options: ["Mauá", "SBC", "Milagres", "Gostoso"],
+        answer: "Milagres",
       },
-      {
-        question: "Qual atributo deixa o input obrigatório?",
-        options: ["placeholder", "value", "required", "maxlength"],
-        answer: "required",
-      },
-      {
-        question: "A tag semântica indicada para rodapés é a:",
-        options: ["div", "main", "section", "footer"],
-        answer: "footer",
-      },
-    ],
+    
+      ],
   },
   {
-    category: "CSS",
+    category: "Fase 2",
     questions: [
       {
         question: "Qual regra altera a cor de um elemento?",
@@ -53,7 +44,7 @@ const data = [
     ],
   },
   {
-    category: "JavaScript",
+    category: "Fase 3",
     questions: [
       {
         question: "O que é Vanilla JavaScript?",
@@ -88,6 +79,7 @@ const data = [
       },
     ],
   },
+ 
 ];
 
 export default data;
